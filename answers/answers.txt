@@ -1,0 +1,20 @@
+1) cd github, cd assignment-1, mkdir answers
+2) nano answers.txt
+4) /Users/lauren/github/assignment-1/answers/answers.txt
+5) ls -a 
+6) Type ls followed by the absolute path of the directory you want to explore for example /Users/lauren would show me everything in my /Users/lauren directory
+7) If not used carefully rm can destroy entire directories permanently. If you ask rm to start in your home directory and remove everything it finds you could end up with a permanently damaged operating system.
+8) mkdir results (do cd /Users/lauren/github/assignment-1/answers/ if not in answers directory)
+9) nano my_script.sh and copied and pasted the given code
+10)chmod 755 my_script.sh
+11)cd ../data (from answers directory) 
+12) wc -w * | sort -r | head -n 3 
+13 for filename in *.csv
+   do
+   /Users/lauren/github/assignment-1/answers/results/my_script.sh $filename
+   done
+14) unzip '*.zip' -d unzipped-files (ran this from data directory) 
+15) rm -f *.zip (ran this from data directory) 
+16) cp *_20*.csv /Users/lauren/github/assignment-1/answers/results (started in unzipped-files directory)
+
+
