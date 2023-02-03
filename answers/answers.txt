@@ -8,7 +8,7 @@
 9) nano my_script.sh and copied and pasted the given code
 10)chmod 755 my_script.sh
 11)cd ../data (from answers directory) 
-12) wc -w * | sort -r | head -n 3 
+12) wc -w * | sort -r | head -n 3 (the answer is 1258 words from annual_aqi_by_cbsa_2013.csv)
 13 for filename in *.csv
    do
    /Users/lauren/github/assignment-1/answers/results/my_script.sh $filename
